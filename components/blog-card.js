@@ -8,16 +8,17 @@ const BlogCard = ({
   dateText,
   numLikes,
   numComments,
+  locked, id
 }) => {
   return (
-    <Link href="/blog-page">
+    <Link href={"/blog-page/" + id}>
       <a className={styles.listcard}>
         <div className={styles.div}>
           <b className={styles.title}>{title}</b>
           <div className={styles.description}>{description}</div>
           <div className={styles.stats}>
             <div className={styles.date}>
-              <img className={styles.svgIcon} alt="" src="../svg13.svg" />
+              {locked ? <img className={styles.svgIcon} alt="" src="../svg13.svg" /> : null}
               <div className={styles.datetext}>{dateText}</div>
             </div>
             <div className={styles.likes}>

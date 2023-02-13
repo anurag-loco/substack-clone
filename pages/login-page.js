@@ -1,13 +1,19 @@
-import { useCallback } from "react";
+import { useCallback, useState } from "react";
 import { useRouter } from "next/router";
 import styles from "./login-page.module.css";
+import { logInWithEmailAndPassword } from "../firebase";
 
 const LoginPage = () => {
   const router = useRouter();
 
-  const onButtonClick = useCallback(() => {
-    router.push("/homepage");
-  }, [router]);
+  const onButtonClick = async () => {
+    let r = await logInWithEmailAndPassword(email, password);
+    console.log(r)
+    if (r == 1)
+      router.push("/homepage");
+  }
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
 
   return (
     <div className={styles.loginPage}>
@@ -31,11 +37,15 @@ const LoginPage = () => {
             <input
               className={styles.input}
               type="text"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               placeholder="Your Email"
             />
             <input
               className={styles.input1}
               type="text"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
               placeholder="Your Password "
             />
             <button className={styles.button} onClick={onButtonClick}>

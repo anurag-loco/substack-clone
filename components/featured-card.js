@@ -8,9 +8,11 @@ const FeaturedCard = ({
   date,
   numLikes,
   numComments,
+  locked,
+  id
 }) => {
   return (
-    <Link href="/blog-page">
+    <Link href={"/blog-page/" + id}>
       <a className={styles.leftcard}>
         <img className={styles.cardimageIcon} alt="" src={cardImage} />
         <div className={styles.details}>
@@ -18,7 +20,7 @@ const FeaturedCard = ({
           <div className={styles.description}>{description}</div>
           <div className={styles.stats}>
             <div className={styles.date}>
-              <img className={styles.svgIcon} alt="" src="../svg4.svg" />
+              {locked ? <img className={styles.svgIcon} alt="" src="../svg4.svg" /> : null}
               <div className={styles.datetext}>{date}</div>
             </div>
             <div className={styles.likes}>

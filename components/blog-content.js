@@ -7,6 +7,7 @@ const BlogContent = ({
   numLikes,
   numComments,
   blogContent,
+  locked
 }) => {
   return (
     <div className={styles.blogContent}>
@@ -15,7 +16,7 @@ const BlogContent = ({
         <div className={styles.topTipsTo}>{blogDescription}</div>
         <div className={styles.div1}>
           <div className={styles.div2}>
-            <img className={styles.svgIcon} alt="" src="../svg.svg" />
+            {locked ? <img className={styles.svgIcon} alt="" src="../svg.svg" /> : null}
             <div className={styles.feb4}>{date}</div>
           </div>
           <div className={styles.div3}>

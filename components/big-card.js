@@ -8,9 +8,10 @@ const BigCard = ({
   dateText,
   numLikes,
   numComments,
+  locked, id
 }) => {
   return (
-    <Link href="/blog-page">
+    <Link href={"/blog-page/" + id}>
       <a className={styles.bigcard}>
         <img className={styles.bigcardiamgeIcon} alt="" src={bigCardImage} />
         <div className={styles.details}>
@@ -18,7 +19,7 @@ const BigCard = ({
           <div className={styles.description}>{description}</div>
           <div className={styles.stats}>
             <div className={styles.date}>
-              <img className={styles.svgIcon} alt="" src="../svg10.svg" />
+              {locked ? <img className={styles.svgIcon} alt="" src="../svg10.svg" /> : null}
               <div className={styles.datetext}>{dateText}</div>
             </div>
             <div className={styles.likes}>

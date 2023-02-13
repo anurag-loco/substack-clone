@@ -1,15 +1,15 @@
 import Link from "next/link";
 import styles from "./popular-card.module.css";
 
-const PopularCard = ({ title, date, numLikes, numComments }) => {
+const PopularCard = ({ title, date, numLikes, numComments, locked, id }) => {
   return (
-    <Link href="/blog-page">
+    <Link href={"/blog-page/" + id}>
       <a className={styles.div}>
         <div className={styles.div1}>
           <b className={styles.title}>{title}</b>
           <div className={styles.stats}>
             <div className={styles.date}>
-              <img className={styles.svgIcon} alt="" src="../svg16.svg" />
+              {locked ? <img className={styles.svgIcon} alt="" src="../svg16.svg" /> : null}
               <div className={styles.datetext}>{date}</div>
             </div>
             <div className={styles.likes}>
