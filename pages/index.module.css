@@ -1,0 +1,139 @@
+.blogImageIcon,
+.yourNo1 {
+  position: relative;
+  max-width: 100%;
+}
+.blogImageIcon {
+  width: 680px;
+  height: auto;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.yourNo1 {
+  font-size: 16px;
+  letter-spacing: -0.24px;
+  line-height: 24px;
+  color: #878781;
+  display: inline-block;
+}
+.over40000Subscribers {
+  position: relative;
+  letter-spacing: -0.17px;
+  line-height: 21px;
+  font-weight: 600;
+}
+.input {
+  border: 1px solid rgba(194, 194, 182, 0.5);
+  font-family: Roboto;
+  font-size: 16px;
+  background-color: #f3f3e4;
+  flex: 1;
+  border-radius: 4px 0 0 4px;
+  display: flex;
+  flex-direction: row;
+  padding: 11px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.subscribe {
+  position: relative;
+  line-height: 20px;
+}
+.button {
+  align-self: stretch;
+  border-radius: 0 4px 4px 0;
+  background-color: #ee7835;
+  padding: 10px 20.032812118530273px 10px 20.232812881469727px;
+}
+.button,
+.div,
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div {
+  flex: 1;
+}
+.form {
+  width: 382.27px;
+  max-width: 100%;
+  color: #fff;
+  font-family: Roboto;
+}
+.noThanks {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.svgIcon {
+  position: relative;
+  width: 20px;
+  height: 18px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.body,
+.button1 {
+  display: flex;
+  align-items: center;
+}
+.button1 {
+  border-radius: 4px;
+  flex-direction: row;
+  padding: 10px 20px 10px 21.943748474121094px;
+  justify-content: flex-start;
+  gap: 9.74px;
+  cursor: pointer;
+  font-family: Roboto;
+}
+.body {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  padding: 0 24px;
+  justify-content: center;
+  gap: 24px;
+  z-index: 0;
+}
+.termsOfService {
+  text-decoration: underline;
+}
+.byRegisteringYouContainer {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.15px;
+  line-height: 18px;
+  color: silver;
+  z-index: 1;
+}
+.closeicon {
+  position: absolute;
+  margin: 0 !important;
+  top: 30px;
+  right: 30px;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 2;
+}
+.subscribeOverlay {
+  position: relative;
+  background-color: #f2f2e3;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 16px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 17px;
+  text-align: center;
+  font-size: 14px;
+  color: #757575;
+  font-family: "SF Pro Display";
+}

@@ -1,0 +1,141 @@
+.bestProductivityTips {
+  align-self: stretch;
+  position: relative;
+  line-height: 36px;
+  font-weight: 600;
+  color: #58584a;
+}
+.topTipsTo {
+  align-self: stretch;
+  font-size: 18px;
+  line-height: 24px;
+}
+.feb4,
+.svgIcon,
+.topTipsTo {
+  position: relative;
+}
+.svgIcon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.feb4 {
+  letter-spacing: -0.15px;
+  line-height: 19px;
+}
+.div2 {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0.5px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6.01px;
+}
+.div4,
+.svgIcon1 {
+  position: relative;
+}
+.svgIcon1 {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.div4 {
+  letter-spacing: -0.15px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.a {
+  border: 1px solid #cbcbbe;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 13.040626525878906px 10px 13px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8.24px;
+}
+.a,
+.a1,
+.aIcon {
+  border-radius: 20px;
+}
+.a1 {
+  border: 1px solid #cbcbbe;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 12.720314025878906px 10px 13px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7.92px;
+  font-size: 14px;
+}
+.aIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.div3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 13px;
+}
+.div,
+.div1 {
+  align-self: stretch;
+  display: flex;
+}
+.div1 {
+  flex-direction: row;
+  padding: 24px 0;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  font-family: Roboto;
+}
+.div {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.blogContent1,
+.blogImageIcon {
+  align-self: stretch;
+  position: relative;
+}
+.blogImageIcon {
+  max-width: 100%;
+  overflow: hidden;
+  height: auto;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.blogContent1 {
+  line-height: 32px;
+}
+.blogContent,
+.div6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 20px;
+  color: #58584a;
+  font-family: Spectral;
+}
+.blogContent {
+  gap: 37px;
+  text-align: left;
+  font-size: 32px;
+  color: #878781;
+  font-family: Lora;
+}

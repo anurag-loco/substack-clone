@@ -1,0 +1,98 @@
+.cardimageIcon {
+  max-width: 100%;
+  overflow: hidden;
+  height: 204.97px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.cardimageIcon,
+.description,
+.title {
+  align-self: stretch;
+  position: relative;
+}
+.title {
+  letter-spacing: -0.24px;
+  line-height: 26px;
+  font-family: Lora;
+  color: #58584a;
+}
+.description {
+  font-size: 15px;
+  letter-spacing: -0.3px;
+  line-height: 22px;
+}
+.svgIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.datetext {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.date,
+.likes {
+  flex-direction: row;
+}
+.date {
+  display: flex;
+  padding: 2px 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.likes {
+  border-radius: 4px;
+  padding: 2px 5.274999618530273px 2px 5px;
+  align-items: center;
+  gap: 4.48px;
+  font-size: 11px;
+}
+.comments,
+.details,
+.leftcard,
+.likes,
+.stats {
+  display: flex;
+  justify-content: flex-start;
+}
+.comments {
+  border-radius: 4px;
+  flex-direction: row;
+  padding: 2px 5.837499618530273px 2px 5px;
+  align-items: center;
+  gap: 5.04px;
+}
+.details,
+.leftcard,
+.stats {
+  align-items: flex-start;
+}
+.stats {
+  flex-direction: row;
+  gap: 7px;
+  font-size: 12px;
+}
+.details,
+.leftcard {
+  flex-direction: column;
+}
+.details {
+  align-self: stretch;
+  gap: 9px;
+}
+.leftcard {
+  cursor: pointer;
+  text-decoration: none;
+  width: 347.94px;
+  gap: 14px;
+  text-align: left;
+  font-size: 20px;
+  color: #878781;
+  font-family: Roboto;
+}

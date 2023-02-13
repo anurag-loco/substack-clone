@@ -1,0 +1,243 @@
+.separator {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid #dadacc;
+  box-sizing: border-box;
+  height: 1px;
+  flex-shrink: 0;
+}
+.about,
+.home {
+  position: relative;
+  letter-spacing: -0.15px;
+  line-height: 20px;
+}
+.home {
+  display: flex;
+  align-items: center;
+  width: 38.5px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.about {
+  font-size: 13px;
+  font-weight: 500;
+  color: #58584a;
+}
+.menu {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 14px 0;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.header,
+.leftsection,
+.middlesection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.header {
+  align-self: stretch;
+  background-color: #f2f2e3;
+}
+.leftsection,
+.middlesection {
+  gap: 26px;
+}
+.middlesection {
+  flex: 1;
+  gap: 32px;
+}
+.mostPopular {
+  position: relative;
+  letter-spacing: -0.24px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.h3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.seeAllPopular {
+  position: absolute;
+  top: 19.5px;
+  left: 4.18px;
+  letter-spacing: -0.24px;
+  line-height: 24px;
+}
+.svgIcon {
+  position: absolute;
+  top: calc(50% - 9.5px);
+  left: 107.16px;
+  width: 19px;
+  height: 19px;
+  overflow: hidden;
+}
+.a {
+  position: relative;
+  width: 347.94px;
+  height: 64px;
+  flex-shrink: 0;
+  font-size: 16px;
+  font-family: "SF Pro Display";
+}
+.featured,
+.rightsection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.featured {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 44px;
+  justify-content: center;
+  gap: 40px;
+}
+.new,
+.searchIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.new {
+  letter-spacing: -0.23px;
+  display: flex;
+  align-items: center;
+  width: 28.31px;
+  height: 16px;
+}
+.searchIcon {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.postsHeader {
+  align-self: stretch;
+  height: 43px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.postsHeaderContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.seeAll {
+  position: absolute;
+  top: 5.5px;
+  left: 17.73px;
+  font-size: 16px;
+  letter-spacing: -0.24px;
+  line-height: 24px;
+  font-family: Roboto;
+  color: #58584a;
+  text-align: left;
+}
+.svgIcon1 {
+  position: absolute;
+  top: 8.5px;
+  left: 68.25px;
+  width: 19px;
+  height: 19px;
+  overflow: hidden;
+}
+.a1 {
+  cursor: pointer;
+  border: 1px solid #878781;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100.25px;
+  height: 36px;
+  flex-shrink: 0;
+}
+.list,
+.postsLeft {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.list {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.postsLeft {
+  flex: 1;
+  padding: 0 0 44px;
+  gap: 16px;
+}
+.allposts,
+.homepage,
+.main,
+.postsLeft {
+  display: flex;
+  justify-content: flex-start;
+}
+.allposts {
+  width: 1100px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 72px;
+  max-width: 100%;
+  font-size: 14px;
+  color: #ee7835;
+  font-family: Roboto;
+}
+.homepage,
+.main {
+  background-color: #f2f2e3;
+  flex-direction: column;
+}
+.main {
+  align-self: stretch;
+  padding: 0 32px 60px;
+  align-items: center;
+  gap: 68px;
+  font-size: 18px;
+  color: #58584a;
+  font-family: Lora;
+}
+.homepage {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  align-items: flex-start;
+  gap: 16px;
+  text-align: left;
+  font-size: 14px;
+  color: #ee7835;
+  font-family: Roboto;
+}
+@media screen and (max-width: 1200px) {
+  .rightsection {
+    display: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .leftsection {
+    display: none;
+  }
+  .featured {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+}

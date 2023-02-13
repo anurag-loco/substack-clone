@@ -1,0 +1,105 @@
+.description,
+.title {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.title {
+  letter-spacing: -0.24px;
+  font-family: Lora;
+  color: #58584a;
+}
+.description {
+  font-size: 16px;
+  letter-spacing: -0.3px;
+}
+.svgIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.datetext {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.date,
+.likes {
+  flex-direction: row;
+}
+.date {
+  display: flex;
+  padding: 2px 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.likes {
+  border-radius: 4px;
+  padding: 2px 5.274999618530273px 2px 5px;
+  align-items: center;
+  gap: 4.48px;
+  font-size: 11px;
+}
+.comments,
+.div,
+.likes,
+.stats {
+  display: flex;
+  justify-content: flex-start;
+}
+.comments {
+  border-radius: 4px;
+  flex-direction: row;
+  padding: 2px 5.837499618530273px 2px 5px;
+  align-items: center;
+  gap: 5.04px;
+}
+.div,
+.stats {
+  align-items: flex-start;
+}
+.stats {
+  flex-direction: row;
+  gap: 7px;
+  font-size: 12px;
+}
+.div {
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+}
+.listcardimageIcon {
+  position: relative;
+  width: 164px;
+  height: 104px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.listcard {
+  cursor: pointer;
+  text-decoration: none;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 14px 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  text-align: left;
+  font-size: 18px;
+  color: #878781;
+  font-family: Roboto;
+}
+@media screen and (max-width: 650px) {
+  .listcardimageIcon {
+    width: 100%;
+    height: auto;
+  }
+  .listcard {
+    flex-direction: column-reverse;
+  }
+}

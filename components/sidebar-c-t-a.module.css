@@ -1,0 +1,145 @@
+.blogLogoIcon,
+.separator {
+  position: relative;
+  flex-shrink: 0;
+}
+.separator {
+  align-self: stretch;
+  border-top: 1px solid #dadacc;
+  box-sizing: border-box;
+  height: 1px;
+}
+.blogLogoIcon {
+  border-radius: 4px;
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+}
+.thelaunchblog,
+.yourNo1 {
+  position: relative;
+  letter-spacing: -0.24px;
+}
+.thelaunchblog {
+  line-height: 27px;
+  font-weight: 600;
+}
+.yourNo1 {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "SF Pro Display";
+  color: #878781;
+}
+.input {
+  border: 1px solid #ee7835;
+  font-family: Roboto;
+  font-size: 16px;
+  background-color: #f3f3e4;
+  flex: 1;
+  border-radius: 4px 0 0 4px;
+  display: flex;
+  flex-direction: row;
+  padding: 16.75px 10px 16.75px 11px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.subscribe {
+  position: relative;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #fff;
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  border: 1px solid #ee7835;
+  padding: 15.5px 14.478126525878906px 16.5px 14.678123474121094px;
+  background-color: #ee7835;
+  border-radius: 0 4px 4px 0;
+}
+.button,
+.form,
+.rightHeader,
+.subscribeForm {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.form {
+  flex: 1;
+}
+.rightHeader,
+.subscribeForm {
+  align-self: stretch;
+  padding: 0 4px;
+}
+.rightHeader {
+  flex-direction: column;
+  padding: 20px 0 0;
+  gap: 17px;
+}
+.thelaunchblogAcrossThe {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.24px;
+  line-height: 24px;
+}
+.title,
+.titleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.title {
+  width: 348px;
+  flex-direction: row;
+  padding: 0 0 13px;
+  box-sizing: border-box;
+}
+.titleParent {
+  align-self: stretch;
+  flex-direction: column;
+  font-family: Lora;
+}
+.wereOnInstagram {
+  position: relative;
+  letter-spacing: -0.24px;
+  line-height: 21px;
+}
+.mentionsSection {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 16px;
+}
+.allpostsRight,
+.mentionsSection,
+.otherResources {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.otherResources {
+  align-self: stretch;
+  padding: 48px 0 16px;
+  align-items: center;
+  font-size: 16px;
+  font-family: "SF Pro Display";
+}
+.allpostsRight {
+  width: 348px;
+  flex-shrink: 0;
+  align-items: flex-start;
+  gap: 7px;
+  text-align: left;
+  font-size: 18px;
+  color: #58584a;
+  font-family: Lora;
+}
+@media screen and (max-width: 1200px) {
+  .allpostsRight {
+    display: none;
+  }
+}

@@ -1,0 +1,106 @@
+.thelaunchblog {
+  position: relative;
+  letter-spacing: -0.24px;
+  line-height: 16.24px;
+  font-weight: 500;
+}
+.h4,
+.separator {
+  align-self: stretch;
+}
+.h4 {
+  display: flex;
+  flex-direction: row;
+  padding: 6px 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.separator {
+  position: relative;
+  border-top: 1px solid rgba(194, 194, 182, 0.5);
+  box-sizing: border-box;
+  height: 1px;
+  flex-shrink: 0;
+}
+.input {
+  border: 1px solid rgba(194, 194, 182, 0.5);
+  font-family: Roboto;
+  font-size: 16px;
+  background-color: #f3f3e4;
+  flex: 1;
+  border-radius: 4px 0 0 4px;
+  display: flex;
+  flex-direction: row;
+  padding: 11px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.subscribe1 {
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Roboto;
+  color: #fff;
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 20.032812118530273px 10px 20.232812881469727px;
+  background-color: #ee7835;
+  align-self: stretch;
+  border-radius: 0 4px 4px 0;
+}
+.button,
+.div,
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div {
+  flex: 1;
+}
+.form {
+  width: 382.27px;
+  max-width: 100%;
+}
+.about,
+.archive,
+.sitemap {
+  position: absolute;
+  top: 16px;
+  left: 0.3px;
+  letter-spacing: -0.24px;
+  line-height: 20px;
+}
+.archive,
+.sitemap {
+  top: 52px;
+  left: 1.11px;
+}
+.sitemap {
+  top: 88px;
+  left: 1.44px;
+}
+.links {
+  align-self: stretch;
+  position: relative;
+  height: 108px;
+  flex-shrink: 0;
+  font-family: "SF Pro Display";
+}
+.subscribe {
+  width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 14px;
+  color: #58584a;
+  font-family: Lora;
+}

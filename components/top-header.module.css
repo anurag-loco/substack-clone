@@ -1,0 +1,128 @@
+.logoIcon {
+  position: relative;
+  border-radius: 4px;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.logocontainer {
+  display: flex;
+  flex-direction: row;
+  padding: 0 200px 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.thelaunchblog {
+  position: relative;
+  letter-spacing: -0.24px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.searchIcon {
+  position: relative;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.subscribe {
+  position: relative;
+  font-size: 14px;
+  letter-spacing: -0.15px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: Roboto;
+  color: #fff;
+  text-align: center;
+}
+.subscribeButton {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 22.071876525878906px 10px 22.271873474121094px;
+  background-color: #ee7835;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.subscribeButton:hover {
+  background-color: #ee6a1e;
+}
+.profileSettings,
+.signIn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: 14px;
+  letter-spacing: -0.15px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: Roboto;
+  color: #58584a;
+  text-align: center;
+  display: inline-block;
+}
+.profileSettings {
+  display: none;
+}
+.rightSection,
+.topheader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rightSection {
+  padding: 0 4px;
+  justify-content: flex-start;
+  gap: 17px;
+}
+.topheader {
+  align-self: stretch;
+  padding: 6px 14px;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 24px;
+  color: #58584a;
+  font-family: Lora;
+}
+@media screen and (max-width: 960px) {
+  .logocontainer {
+    padding-right: 200px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 650px) {
+  .logoIcon {
+    width: 28px;
+    height: 28px;
+  }
+  .logocontainer {
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .thelaunchblog {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .subscribe {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .subscribeButton {
+    padding: 6px 10px;
+    box-sizing: border-box;
+  }
+  .profileSettings,
+  .signIn {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .rightSection {
+    gap: 8px;
+  }
+}

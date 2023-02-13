@@ -1,0 +1,33 @@
+.article {
+  width: 728px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 0 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 37px;
+  max-width: 100%;
+}
+.blogPage,
+.body {
+  background-color: #f2f2e3;
+  display: flex;
+}
+.body {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 16px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.blogPage {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 60px;
+}
