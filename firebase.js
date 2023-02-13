@@ -50,7 +50,7 @@ const logout = () => {
 };
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
-setPersistence(auth, browserSessionPersistence);
+
 
 // firebase.auth().setPersistence(firebase.auth.Auth.Persistence.SESSION);
 
